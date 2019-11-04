@@ -6,6 +6,7 @@ Vue.config.productionTip = false;
 
 new Vue({
   render: h => h(App),
+  // 在Vue实例中挂载创建的路由实例
   router
 }).$mount("#app");
 
